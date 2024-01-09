@@ -7,7 +7,6 @@
  * this program prints out whether a n is zero or positive or negative
  * Return: 0(Always success)
  */
-int main
 int main(void)
 {
 	int n;

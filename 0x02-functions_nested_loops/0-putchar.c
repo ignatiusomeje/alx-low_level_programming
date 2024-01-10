@@ -18,6 +18,6 @@ int main(void)
 		printf("%c", *ptr);
 		ptr++;
 	}
-	printf('\n');
+	printf("\n");
 	return (0);
 }

@@ -16,7 +16,7 @@ int main(void)
 	while (*ptr != '\0')
 	{
 		printf("%c", *ptr);
-		*ptr++;
+		ptr++;
 	}
 	return (0);
 }

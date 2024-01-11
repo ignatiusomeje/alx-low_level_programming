@@ -19,25 +19,34 @@ void times_table(void)
 			{
 				if (innercount == 9)
 				{
-					printf("%d\n", n);
+					_putchar(n +'0');
+					/**printf("%d\n", n);*/
 				}
 				else
 				{
-					printf("%d,  ", n);
+					_putchar(n + '0');
+					_putchar(',');
+					_putchar(' ');
+					_putchar(' ');
+					/**printf("%d,  ", n);*/
 				}
 			}
 			else
 			{
 				if (innercount == 9)
 				{
-					printf("%d\n", n);
+					_putchar(n +'0');
+					/**printf("%d\n", n);*/
 				}
 				else
 				{
-					printf("%d, ", n);
+					_putchar(n + '0');
+					_putchar(',');
+					_putchar(' ');
+					/**printf("%d, ", n);*/
 				}
 			}
 		}
-		/**printf("\n");*/
+		_putchar('\n');
 	}
 }

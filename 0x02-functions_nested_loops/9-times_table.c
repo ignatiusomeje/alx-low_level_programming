@@ -19,7 +19,7 @@ void times_table(void)
 			{
 				if (innercount == 9)
 				{
-					printf("%d", n);
+					printf("%d\n", n);
 				}
 				else
 				{
@@ -30,7 +30,7 @@ void times_table(void)
 			{
 				if (innercount == 9)
 				{
-					printf("%d", n);
+					printf("%d\n", n);
 				}
 				else
 				{
@@ -38,6 +38,6 @@ void times_table(void)
 				}
 			}
 		}
-		printf("\n");
+		//printf("\n");
 	}
 }

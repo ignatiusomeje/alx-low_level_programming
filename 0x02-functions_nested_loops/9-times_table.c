@@ -17,36 +17,31 @@ void times_table(void)
 
 			if (n < 10)
 			{
-				if (innercount == 9)
+				if (innercount == 0)
 				{
-					_putchar(n +'0');
-					/**printf("%d\n", n);*/
+					printf("%d", n);
+				}
+				else if (innercount == 9)
+				{
+					printf("  %d\n", n);
 				}
 				else
 				{
-					_putchar(n + '0');
-					_putchar(',');
-					_putchar(' ');
-					_putchar(' ');
-					/**printf("%d,  ", n);*/
+					printf("  %d,", n);
 				}
 			}
 			else
 			{
 				if (innercount == 9)
 				{
-					_putchar(n +'0');
-					/**printf("%d\n", n);*/
+					printf(" %d\n", n);
 				}
 				else
 				{
-					_putchar(n + '0');
-					_putchar(',');
-					_putchar(' ');
-					/**printf("%d, ", n);*/
+					printf(" %d,", n);
 				}
 			}
 		}
-		_putchar('\n');
+		/**printf("\n");*/
 	}
 }

@@ -12,6 +12,7 @@ int print_last_digit(int a)
 
 	if (lst < 0)
 		lst *= -1;
+
 	printf("%d", lst);
 	return (lst);
 }

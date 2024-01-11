@@ -18,6 +18,7 @@ void print_alphabet_x10(void)
 			_putchar(c);
 			c++;
 		}
+		c = 'a';
 		_putchar('\n');
 		i++;
 	}

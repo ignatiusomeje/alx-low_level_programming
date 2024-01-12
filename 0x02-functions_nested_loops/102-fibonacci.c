@@ -21,7 +21,7 @@ int main(void)
 		}
 		else
 		{
-			printf("%ld,", res);
+			printf("%ld, ", res);
 		}
 		num1 = num2;
 		num2 = res;

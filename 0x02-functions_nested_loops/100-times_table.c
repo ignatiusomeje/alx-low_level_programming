@@ -35,7 +35,8 @@ void print_times_table(int n)
 				{
 					if (mult < 10)
 					{
-						printf("   %d,", mult);
+						j == 0 ? printf("%d,", mult)
+						: printf("   %d,", mult)
 					}
 					else
 					{

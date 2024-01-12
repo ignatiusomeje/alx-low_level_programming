@@ -11,7 +11,7 @@ int main(void)
 {
 	unsigned long res, num1 = 0, num2 = 1, sum = 0;
 
-	while (i < 4000000)
+	while (res <= 4000000)
 	{
 		res = num1 + num2;
 		num1 = num2;

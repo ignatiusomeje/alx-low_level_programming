@@ -23,7 +23,8 @@ void print_times_table(int n)
 				if (j == n)
 				{
 					if (mult < 10)
-						printf("   %d\n", mult);
+						j == 0 ? printf("%d\n", mult)
+						: printf("   %d\n", mult);
 					else if (mult >= 100)
 						printf(" %d\n", mult);
 					else

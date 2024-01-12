@@ -27,4 +27,5 @@ int main(void)
 		num2 = res;
 		i++;
 	}
+	return (0);
 }

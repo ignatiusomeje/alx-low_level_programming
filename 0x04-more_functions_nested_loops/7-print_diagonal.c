@@ -2,18 +2,29 @@
 
 /**
 * print_diagonal - print diagonal line;
-* @n: number of
-*
+* @n: number of times to print
+* Return: void;
 *
 */
 void print_diagonal(int n)
 {
-	if ((n < 0) || (n == 0))
-		_putchar('\n');
+	int gap, num = 0;
 
-	while (n-- > 0)
+	if (n > 0)
 	{
-		_putchar('\\');
-		_putchar('\n');
+		while (num < n)
+		{
+			gap = 0;
+			while (gap < num)
+			{
+				_putchar(' ');
+				gap++;
+			}
+			_putchar('\\');
+			_putchar('\n');
+			num++;
+		}
 	}
+	else
+		_putchar('\n');
 }

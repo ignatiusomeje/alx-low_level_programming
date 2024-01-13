@@ -9,15 +9,18 @@ void print_line(int n)
 {
 	int i = 0;
 
+	if ((n == 0) || (n < 0))
+	{
+		_putchar('\n');
+		return (0);
+	}
+
 	while (i <= n)
 	{
-		if (n <= 0)
-			_putchar('\n');
-		else
-			_putchar('_');
-
+		_putchar('_');
 		i++;
 	}
 	if (!(n == 0 || n < 0))
 		_putchar('\n');
+	return (0);
 }

@@ -16,7 +16,7 @@ void print_square(int size)
 		int insqnum = size * size;
 			while (insqnum > 0)
 			{
-				_putchar('\#');
+				_putchar('#');
 				insqnum--;
 			}
 			_putchar('\n');

@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
-*
-*
+* main - print buzz, fizz or fizzbuzz;
+* Return: 0
 *
 */
 int main(void)

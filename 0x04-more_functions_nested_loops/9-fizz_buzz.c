@@ -8,25 +8,22 @@
 int main(void)
 {
 	int i;
-	char buzz[] = "Buzz";
-	char fizz[] = "Fizz";
-	char fizzbuzz[] = "FizzBuzz";
 
 	for (i = 1; i <= 100; i++)
 	{
 		if (i == 100)
-			printf("%s\n", buzz);
+			printf("Buzz\n");
 		else if (((i % 3) == 0) && ((i % 5) == 0))
 		{
-			printf("%s ", fizzbuzz);
+			printf("FizzBuzz ");
 		}
 		if ((i % 3) == 0)
 		{
-			printf("%s ", fizz);
+			printf("Fizz ");
 		}
 		else if ((i % 5) == 0)
 		{
-			printf("%s ", buzz);
+			printf("Buzz ");
 		}
 		else
 		{

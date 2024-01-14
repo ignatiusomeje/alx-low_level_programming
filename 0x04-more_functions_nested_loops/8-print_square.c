@@ -11,12 +11,12 @@ void print_square(int size)
 	{
 		int sqnum = size * size;
 
-		while (sqnum >= 0)
+		while (sqnum > 0)
 		{
 		int insqnum = size * size;
-			while (insqnum >= 0)
+			while (insqnum > 0)
 			{
-				_putchar('#');
+				_putchar('\#');
 				insqnum--;
 			}
 			_putchar('\n');

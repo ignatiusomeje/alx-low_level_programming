@@ -1,0 +1,1 @@
+Another Knowledge on pointers

@@ -14,14 +14,13 @@ int main(int argc, char *argv[])
 
 	if (argc > 1 && argc <= 3)
 	{
-		while (i <= argc)
+		while (i < argc)
 		{
-			mul *= atoi(*argv[i]);
-
-			printf("%d\n", mul);
+			mul *= atoi(argv[i]);
 			i++;
 		}
-			return (0);
+		printf("%d\n", mul);
+		return (0);
 	}
 	else
 	{

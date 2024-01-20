@@ -12,9 +12,9 @@ int main(int argc, char *argv[])
 	int i = 1;
 	int mul = 0;
 
-	if (argc > 1 && argc == 3)
+	if (argc > 1 && argc <= 3)
 	{
-		while (i <= 2)
+		while (i <= argc)
 		{
 			mul *= atoi(*argv[i]);
 
